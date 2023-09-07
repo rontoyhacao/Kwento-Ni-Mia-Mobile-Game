@@ -32,7 +32,7 @@ public class ObjDrag : MonoBehaviour
 
     private void OnMouseDown()
     {
-        
+        SoundCollection.instance.CallSfx(0);
     }
 
     private void OnMouseUp()
@@ -59,11 +59,14 @@ public class ObjDrag : MonoBehaviour
 
                 GameSystem.Instance.CurrentDataSet++;
                 Data.ScoreData += 200;
+
+                SoundCollection.instance.CallSfx(1);
             }
             else
             {
                 transform.position = SavePosition;
                 Data.LivesData--;
+                SoundCollection.instance.CallSfx(2);
             }
         }
         else

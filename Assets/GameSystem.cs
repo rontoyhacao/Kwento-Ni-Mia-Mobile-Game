@@ -142,6 +142,7 @@ public class GameSystem : MonoBehaviour
                 GameStart = false;
                 GameOver = true;
 
+                SoundCollection.instance.CallSfx(4);
                 GuiAnimation.GetComponent<UiControl>().BtnMove("Game2_Over");
             }
 
@@ -150,6 +151,7 @@ public class GameSystem : MonoBehaviour
                 GameOver = true;
                 GameStart = false;
 
+                SoundCollection.instance.CallSfx(4);
                 GuiAnimation.GetComponent<UiControl>().BtnMove("Game2_Over");
             }
 
@@ -164,10 +166,14 @@ public class GameSystem : MonoBehaviour
 
                     UnityEngine.SceneManagement.SceneManager.LoadScene("Game2_" + Data.LevelData);
                     //GuiAnimation.GetComponent<UiControl>().BtnMove("Game2_" + Data.LevelData);
+
+                    SoundCollection.instance.CallSfx(3);
                 }
                 else 
                 {
                     GuiAnimation.GetComponent<UiControl>().BtnMove("Game2_Over");
+                    SoundCollection.instance.CallSfx(5);
+                    SoundCollection.instance.CallSfx(6);
                 }
             }
         }
