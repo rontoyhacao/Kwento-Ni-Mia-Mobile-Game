@@ -1027,18 +1027,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionAnimation
       objectReference: {fileID: 0}
-    - target: {fileID: 387226564481314231, guid: fe277904413767247a1d2d8f2ddc93c5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511598572560943006, guid: fe277904413767247a1d2d8f2ddc93c5, type: 3}
-      propertyPath: NoTransition
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511598572560943006, guid: fe277904413767247a1d2d8f2ddc93c5, type: 3}
-      propertyPath: HasTransition
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe277904413767247a1d2d8f2ddc93c5, type: 3}
 --- !u!114 &317215169 stripped
@@ -1244,6 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
+  NewBgm: {fileID: 0}
 --- !u!114 &428599855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4171,6 +4160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
+  NewBgm: {fileID: 0}
 --- !u!114 &1639999559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5918,6 +5908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
+  NewBgm: {fileID: 0}
 --- !u!1 &5384561511972866053
 GameObject:
   m_ObjectHideFlags: 0

@@ -478,6 +478,7 @@ MonoBehaviour:
   - {fileID: 1172297886}
   _RandomQuestion: 0000000000000000
   _RandomPost: 
+  _RandomQuestionSpeechType: []
 --- !u!4 &556343238
 Transform:
   m_ObjectHideFlags: 0
@@ -539,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &793442158
+--- !u!1001 &1033735657
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2

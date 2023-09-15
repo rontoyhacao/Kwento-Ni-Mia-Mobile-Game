@@ -29,4 +29,11 @@ public class SoundCollection : MonoBehaviour
     {
         SourceSfx.PlayOneShot(Clip[id]);
     }
+
+    public void ChangeBgm(AudioClip music)
+    {
+        SourceBgm.Stop();
+        SourceBgm.clip = music;
+        SourceBgm.Play();
+    }
 }

@@ -13,7 +13,7 @@ public class GameSystem : MonoBehaviour
 {
     public static GameSystem Instance;
 
-    int MaxLevel = 5;
+    int MaxLevel = 8;
 
     [Header("Game Info")]
     public bool GameStart;
@@ -80,6 +80,7 @@ public class GameSystem : MonoBehaviour
 
     [HideInInspector]public List<int> _RandomQuestion = new List<int>();
     [HideInInspector]public List<int> _RandomPost = new List<int>();
+    [HideInInspector]public List<string> _RandomQuestionSpeechType = new List<string>();
     int random;
     int random2;
 
@@ -87,19 +88,45 @@ public class GameSystem : MonoBehaviour
     {
         _RandomQuestion.Clear();
         _RandomPost.Clear();
+        _RandomQuestionSpeechType.Clear();
 
         _RandomQuestion = new List<int>(new int[DragObj.Length]);
+        _RandomQuestionSpeechType = new List<string>(new string[DragObj.Length]);
 
-        for(int i = 0; i < _RandomQuestion.Count; i++)
+        if (_RandomQuestion.Count <= 3)
         {
-            random = Random.Range(1, GameData.Length);
-            while (_RandomQuestion.Contains(random))
+            for (int i = 0; i < _RandomQuestion.Count; i++)
+            {
                 random = Random.Range(1, GameData.Length);
+                while (_RandomQuestion.Contains(random))
+                    random = Random.Range(1, GameData.Length);
 
-            _RandomQuestion[i] = random;
+                while (_RandomQuestionSpeechType.Contains(GameData[random - 1].FigureSpeechType))
+                {
+                    random = Random.Range(1, GameData.Length);
+                }
 
-            DragObj[i].Id = random - 1;
-            DragObj[i].Text.text = GameData[random - 1].FigureSpeechType;
+                _RandomQuestion[i] = random;
+                _RandomQuestionSpeechType[i] = GameData[random - 1].FigureSpeechType;
+
+                DragObj[i].Id = random - 1;
+                DragObj[i].Text.text = GameData[random - 1].FigureSpeechType;
+                
+            }
+        }
+        else
+        {
+            for (int i = 0; i < _RandomQuestion.Count; i++)
+            {
+                random = Random.Range(1, GameData.Length);
+                while (_RandomQuestion.Contains(random))
+                    random = Random.Range(1, GameData.Length);
+
+                _RandomQuestion[i] = random;
+
+                DragObj[i].Id = random - 1;
+                DragObj[i].Text.text = GameData[random - 1].FigureSpeechType;
+            }
         }
 
         _RandomPost = new List<int>(new int[LocationDrop.Length]);
@@ -116,7 +143,6 @@ public class GameSystem : MonoBehaviour
             LocationDrop[i].Drop.FigureOfSpeechType = GameData[LocationDrop[i].Drop.Id].FigureSpeechType;
             LocationDrop[i].Phrase.Text.text = GameData[LocationDrop[i].Drop.Id].Phrase;
         }
-
     }
 
     // Update is called once per frame
