@@ -452,25 +452,27 @@ MonoBehaviour:
   GuiAnimation: {fileID: 698024137}
   GameData:
   - FigureSpeechType: Pagwawangis
-    Phrase: Ang mga ina ay tunay na ilaw ng tahanan.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Kumukulo ang dugo ko sa kanya!
+    Phrase: Si Marga ay isang magandang bulaklak.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Parang tambol sa lakas ang boses ni Juan sa entablado.
   - FigureSpeechType: Pagtatao
-    Phrase: Lumuluha ang kandila sa mesa.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Pakiramdam ko ay pasan ko ang langit.
+    Phrase: Sumasayaw ang mga halaman sa bawat ihip ng hangin.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang aking lolo ay parang leon sa katapangan.
   - FigureSpeechType: Pagwawangis
-    Phrase: Ang bagong silang na anak ni Mary Grace ay anghel na hulog ng langit.
+    Phrase: Ang kamay ng dalaga ay yelo sa lamig dahil siya ay kinakabahan.
   - FigureSpeechType: Pagwawangis
-    Phrase: Isang kabayo sa bilis ang kapatid ko.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Kitang-kita kung paano umusok ang ilong ng kanyang ina sa galit.
+    Phrase: Si Dina ay hulog ng langit.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Si Rosa ay tulad ng nangangatal na dahon sa takot.
   - FigureSpeechType: Pagtatao
-    Phrase: Galit na bumuhos ang ulan kahapon.
+    Phrase: Umiyak ang langit nang mamatay ang isang bayani.
   - FigureSpeechType: Pagwawangis
-    Phrase: Ang mata niya ay mga alitaptap.
+    Phrase: Isang malaking palasyo ang bahay ni Victor.
   - FigureSpeechType: Pagwawangis
-    Phrase: Ang mata niya ay mga alitaptap.
+    Phrase: Si Melanie ay isang bituing nagniningning.
+  - FigureSpeechType: 
+    Phrase: 
   LocationDrop:
   - {fileID: 116689487}
   DragObj:

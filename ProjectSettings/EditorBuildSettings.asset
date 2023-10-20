@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Game2_Over.unity
     guid: bd3c728ea26c3d648844db37ea48dd48
   - enabled: 1
+    path: Assets/_Scenes/Game3_0.unity
+    guid: bfda49125e449eb4fae71dcdab5ac3cf
+  - enabled: 1
     path: Assets/_Scenes/GameSelection.unity
     guid: 37c56783c56c05842b2d04a4cda3d872
   m_configObjects:

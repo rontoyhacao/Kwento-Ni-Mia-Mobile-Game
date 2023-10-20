@@ -453,24 +453,24 @@ MonoBehaviour:
   GameData:
   - FigureSpeechType: Pagwawangis
     Phrase: Ang mga ina ay tunay na ilaw ng tahanan.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Kumukulo ang dugo ko sa kanya!
+  - FigureSpeechType: Pagtutulad
+    Phrase: Parang tambol sa lakas ang boses ni Juan sa entablado.
   - FigureSpeechType: Pagtatao
     Phrase: Lumuluha ang kandila sa mesa.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Pakiramdam ko ay pasan ko ang langit.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang aking lolo ay parang leon sa katapangan.
   - FigureSpeechType: Pagwawangis
     Phrase: Ang bagong silang na anak ni Mary Grace ay anghel na hulog ng langit.
   - FigureSpeechType: Pagwawangis
     Phrase: Isang kabayo sa bilis ang kapatid ko.
-  - FigureSpeechType: Pagmamalabis
-    Phrase: Kitang-kita kung paano umusok ang ilong ng kanyang ina sa galit.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Si Rosa ay tulad ng nangangatal na dahon sa takot.
   - FigureSpeechType: Pagtatao
     Phrase: Galit na bumuhos ang ulan kahapon.
   - FigureSpeechType: Pagwawangis
     Phrase: Ang mata niya ay mga alitaptap.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang mata niya ay mga alitaptap.
+  - FigureSpeechType: 
+    Phrase: 
   LocationDrop:
   - {fileID: 116689487}
   DragObj:

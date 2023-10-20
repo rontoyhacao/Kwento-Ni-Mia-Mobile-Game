@@ -482,7 +482,7 @@ MonoBehaviour:
   GuiAnimation: {fileID: 698024137}
   GameData:
   - FigureSpeechType: Pagwawangis
-    Phrase: Ang mga ina ay tunay na ilaw ng tahanan.
+    Phrase: Si Leni ay isang anghel sa kabaitan.
   - FigureSpeechType: Pagmamalabis
     Phrase: Kumukulo ang dugo ko sa kanya!
   - FigureSpeechType: Pagtatao
