@@ -11,6 +11,7 @@ public class UiControl : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = 120;
         if (HasTransition && NoTransition)
         {
             gameObject.SetActive(false);

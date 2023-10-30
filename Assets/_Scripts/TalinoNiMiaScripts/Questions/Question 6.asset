@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
-  m_Name: Question 5
+  m_Name: Question 6
   m_EditorClassIdentifier: 
-  Question: Gumamit kayo ng shampoo dahil ito ay makatutulong upang gumanda ang inyong
-    buhok.
-  TextPurpose: Dahil ang teksto ay nanghihikayat na gumamit ng shampoo.
+  Question: STOP Sign sa kalye
+  TextPurpose: Ipinahihiwatig ng STOP Sign sa kalye na ang bawat drayber ng sasakyan
+    ay huminto upang makaiwas sa disgrasya.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat
   - Manlibang
-  CorrectAnswerIndex: 1
+  CorrectAnswerIndex: 0

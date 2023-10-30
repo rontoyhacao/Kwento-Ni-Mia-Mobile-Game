@@ -54,6 +54,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 918b7b70008730f47ab5e53b46b04a1b, type: 3}
   - {fileID: 8300000, guid: fb21a79fdfa34bd4298c0b83801f7b15, type: 3}
   - {fileID: 8300000, guid: c2c45be650fd94c4e947f120e933867e, type: 3}
+  - {fileID: 8300000, guid: 7c682755db4775c418d4b37c23b5eca5, type: 3}
+  - {fileID: 8300000, guid: a9c6da46c54f8ca4abce027559d36595, type: 3}
   SourceSfx: {fileID: 8559892892111630097}
   SourceBgm: {fileID: 8559892892111630098}
 --- !u!82 &8559892892111630097

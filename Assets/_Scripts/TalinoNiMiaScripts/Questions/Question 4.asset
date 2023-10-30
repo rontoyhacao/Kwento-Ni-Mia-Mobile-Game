@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: Si Darna ay isa sa mga napakagandang nilalang na mayroong espesyal na
-    kapangyarihan.
-  answers:
-  - Magbigay impormasyon
+  Question: "Ang kwentong \u201CAng Pambihirang Sombrero\u201D na isinulat ni Jose
+    Miguel Tejido."
+  TextPurpose: Ito ay dahil isang aklat ang nasabing kwento upang magbigay aliw sa
+    mambabasa.
+  Answers:
+  - Magbigay Impormasyon
   - Manghikayat
   - Manlibang
-  correctAnswerIndex: 2
+  CorrectAnswerIndex: 2

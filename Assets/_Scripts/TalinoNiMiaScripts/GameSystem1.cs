@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class Data2
 {
-    public static int LevelData, ScoreData, TimerData, LivesData;
+    public static int ScoreData;
 }
 
 public class GameSystem1 : MonoBehaviour
 {
-    public static GameSystem1 Instance;
+    //public static GameSystem1 Instance;
+    Quiz Quiz;
 
     [Header("Game Info")]
     public bool GameStart;
@@ -32,10 +33,10 @@ public class GameSystem1 : MonoBehaviour
         public string Phrase;
     }
 
-    private void Awake()
-    {
-        Instance = this;
-    }
+    //private void Awake()
+    //{
+    //    Instance = this;
+    //}
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +44,18 @@ public class GameSystem1 : MonoBehaviour
         GameStart = false;
         GameOver = false;
         GameStart = true;
+
+        Quiz = FindAnyObjectByType<Quiz>();
+    }
+
+    void Update()
+    {
+        if(Quiz.IsComplete)
+        {
+            GuiAnimation.GetComponent<UiControl>().BtnMove("Game3_Over");
+            //SoundCollection.instance.CallSfx(5);
+            //SoundCollection.instance.CallSfx(6);
+        }
     }
 
     public void SetHudInfo() 

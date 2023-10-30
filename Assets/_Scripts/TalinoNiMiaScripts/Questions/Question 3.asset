@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
   m_Name: Question 3
   m_EditorClassIdentifier: 
-  question: Si Emilio Aguinaldo ang unang pangulo ng Republika ng Pilipinas.
-  answers:
-  - Magbigay impormasyon
+  Question: Si Emilio Aguinaldo ang unang pangulo ng Republika ng Pilipinas.
+  TextPurpose: Ang teksto ay nagbibigay impormasyon na si Emilio Aguinaldo ang unang
+    pangulo ng Republika ng Pilipinas
+  Answers:
+  - Magbigay Impormasyon
   - Manghikayat
   - Manlibang
-  correctAnswerIndex: 0
+  CorrectAnswerIndex: 0

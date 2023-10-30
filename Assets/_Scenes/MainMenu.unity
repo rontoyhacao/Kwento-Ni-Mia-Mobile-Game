@@ -1232,7 +1232,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
-  NewBgm: {fileID: 0}
 --- !u!114 &428599855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4160,7 +4159,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
-  NewBgm: {fileID: 0}
 --- !u!114 &1639999559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5908,7 +5906,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasTransition: 0
   NoTransition: 0
-  NewBgm: {fileID: 0}
 --- !u!1 &5384561511972866053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,6 +6038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4452478038547800600, guid: 86d6b8c852594c94d9a2cb4c1ddf231f, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8559892892111630099, guid: 86d6b8c852594c94d9a2cb4c1ddf231f, type: 3}
       propertyPath: m_RootOrder
       value: 11

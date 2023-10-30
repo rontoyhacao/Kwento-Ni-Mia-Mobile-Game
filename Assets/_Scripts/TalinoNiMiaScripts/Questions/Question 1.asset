@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Ang kape ay nagtataglay ng caffeine na maaaring makapagpabilis ng tibok
     ng puso ng tao.
-  TextPurpose: Dahil nagbibigay kaalaman ang teksto sa mambabasa na ang kape ay nakakapagpabilis
+  TextPurpose: Dahil nagbibigay kaalaman ang teksto na ang kape ay katunayang nakakapagpabilis
     ng tibok ng puso dahil sa taglay nitong caffeine.
   Answers:
   - Magbigay Impormasyon
