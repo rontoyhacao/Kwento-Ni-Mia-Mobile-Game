@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
-  m_Name: Question 6
+  m_Name: Question 7
   m_EditorClassIdentifier: 
-  Question: STOP Sign sa kalye
-  TextPurpose: Ipinahihiwatig ng STOP Sign sa kalye na ang bawat drayber ng sasakyan
-    ay dapat huminto upang makaiwas sa disgrasya.
+  Question: Mayroong 24 oras sa isang araw at 365 na araw sa isang taon. Gada 4 na
+    taon, ang buwan ng Pebrero ay may dagdag na isang araw. Ang tawag dito ay "leap
+    year". Ang leap year ay binubuo ng 366 na araw.
+  TextPurpose: Ibinabahagi nito na ang "leap year" ay nagaganap daw tuwing gada 4
+    na taon na kung saan ang 365 na araw sa isang taon ay nagiging 366 na araw dahil
+    sa dagdag na araw sa buwan ng Pebrero.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat

@@ -52,6 +52,12 @@ public class Quiz : MonoBehaviour
         TimerText.text = Mathf.Round((Timer.TimerValue)).ToString();
         if(Timer.LoadNextQuestion)
         {
+            if (ProgressBar.value == ProgressBar.maxValue)
+            {
+                IsComplete = true;
+                return;
+            }
+
             HasAnsweredEarly = false;
             GetNextQuestion();
             Timer.LoadNextQuestion = false;
@@ -71,13 +77,9 @@ public class Quiz : MonoBehaviour
         Timer.CancelTimer();
 
         Data2.ScoreData = ScoreKeeper.CalculateScore();
-
         ScoreText.text = Data2.ScoreData.ToString() + "%";
 
-        if(ProgressBar.value == ProgressBar.maxValue)
-        {
-            IsComplete = true;
-        }
+        
     }
 
     void DisplayAnswer(int index)
@@ -138,7 +140,6 @@ public class Quiz : MonoBehaviour
         {
             Questions.Remove(CurrentQuestion);
         }
-        //Questions.Remove(CurrentQuestion);
     }
 
     void DisplayQuestion()

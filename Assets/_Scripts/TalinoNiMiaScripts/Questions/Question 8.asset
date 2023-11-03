@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
-  m_Name: Question 4
+  m_Name: Question 8
   m_EditorClassIdentifier: 
-  Question: Ang pelikulang "The Amazing Spider-man"
-  TextPurpose: Ito ay dahil ang pelikulang "The Amazing Spider-man" ay para magbigay
-    aliw sa mga manonood tungkol sa buhay ni Spider-man.
+  Question: Nang lumabas ng circus si Mike ay hindi siya makapaniwala sa kanyang
+    nakita. May mga elepanteng naglalakad gamit ang dalawang paa, payaso na bumubuga
+    ng apoy, at salamangkero na nagpapaikot ng sampung bola!
+  TextPurpose: Dahil sa kakaibang nakita ni Mike ay naghahatid ito ng aliw sa mambabasa.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat

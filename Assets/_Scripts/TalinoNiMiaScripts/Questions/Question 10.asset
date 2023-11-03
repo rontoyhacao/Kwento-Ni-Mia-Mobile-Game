@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
-  m_Name: Question 4
+  m_Name: Question 10
   m_EditorClassIdentifier: 
-  Question: Ang pelikulang "The Amazing Spider-man"
-  TextPurpose: Ito ay dahil ang pelikulang "The Amazing Spider-man" ay para magbigay
-    aliw sa mga manonood tungkol sa buhay ni Spider-man.
+  Question: Si Leni ay isang magaling na presidente. Siya ay mapagkakatiwalaan at
+    bawat tungkulin ay kanyang naihahatid. Marami rin siyang mga kaibigan at nakapagtaguyod
+    ng fundraising para sa klase. Siya ang dapat iboto ng nakararami.
+  TextPurpose: Dahil ayon sa teksto, siya ay isang mabuting ihemplo para sa isang
+    presidente kung kaya't siya ang hinihikayat na iboto ng nakararami.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat
   - Manlibang
-  CorrectAnswerIndex: 2
+  CorrectAnswerIndex: 1

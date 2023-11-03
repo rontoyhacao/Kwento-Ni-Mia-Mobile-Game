@@ -1473,6 +1473,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 52b419d7516a49b498823c6a2d9d141a, type: 2}
   - {fileID: 11400000, guid: 8c421af6837189342a8cd949c7b38d3f, type: 2}
   - {fileID: 11400000, guid: f72cb1904d5e3164f96b841a936d2ebf, type: 2}
+  - {fileID: 11400000, guid: 27511c6b87bd6b7438dbeed5cb13af44, type: 2}
+  - {fileID: 11400000, guid: 74470f80ab7452545a9ad53284aa220b, type: 2}
+  - {fileID: 11400000, guid: 1db53b58073c41b4d94b321897e64fe7, type: 2}
+  - {fileID: 11400000, guid: 0edd70f06369f594f84d2184794976f8, type: 2}
   CurrentQuestion: {fileID: 11400000, guid: aa22f4a2f1d0545449b9f45e26f51bd6, type: 2}
   AnswerButtons:
   - {fileID: 1814400569}
