@@ -1477,6 +1477,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 74470f80ab7452545a9ad53284aa220b, type: 2}
   - {fileID: 11400000, guid: 1db53b58073c41b4d94b321897e64fe7, type: 2}
   - {fileID: 11400000, guid: 0edd70f06369f594f84d2184794976f8, type: 2}
+  - {fileID: 11400000, guid: d2c2667fd81b10b4e87f5fd2fcf97579, type: 2}
+  - {fileID: 11400000, guid: 13c1085881eb09b4db02328506676bb2, type: 2}
   CurrentQuestion: {fileID: 11400000, guid: aa22f4a2f1d0545449b9f45e26f51bd6, type: 2}
   AnswerButtons:
   - {fileID: 1814400569}
