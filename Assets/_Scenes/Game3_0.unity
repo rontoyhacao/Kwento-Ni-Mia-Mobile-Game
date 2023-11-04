@@ -1479,6 +1479,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0edd70f06369f594f84d2184794976f8, type: 2}
   - {fileID: 11400000, guid: d2c2667fd81b10b4e87f5fd2fcf97579, type: 2}
   - {fileID: 11400000, guid: 13c1085881eb09b4db02328506676bb2, type: 2}
+  - {fileID: 11400000, guid: 4bfb50a08a78e6b4fa7b5599505ff2e2, type: 2}
+  - {fileID: 11400000, guid: 0bd1ca7224a3928499a282efad82a719, type: 2}
+  - {fileID: 11400000, guid: 78546613ff1882946a86e366276c6085, type: 2}
+  - {fileID: 11400000, guid: 538b48c0d81fb3845a48c589ba6ea910, type: 2}
+  - {fileID: 11400000, guid: 4c0515240df211744b449fe39d257c6d, type: 2}
+  - {fileID: 11400000, guid: fe6d6b5dea2874a4ca448048a8b21fe8, type: 2}
+  - {fileID: 11400000, guid: 61b7d7f57d9e6704781a30f2e919a702, type: 2}
+  - {fileID: 11400000, guid: 69e7f2b110c402d4b88c754066788193, type: 2}
+  - {fileID: 11400000, guid: e55876d7c095b054a93a193b0648711a, type: 2}
   CurrentQuestion: {fileID: 11400000, guid: aa22f4a2f1d0545449b9f45e26f51bd6, type: 2}
   AnswerButtons:
   - {fileID: 1814400569}
@@ -1560,6 +1569,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3845116733268557026, guid: 86d6b8c852594c94d9a2cb4c1ddf231f, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8559892892111630098, guid: 86d6b8c852594c94d9a2cb4c1ddf231f, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1

@@ -58,6 +58,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a9c6da46c54f8ca4abce027559d36595, type: 3}
   SourceSfx: {fileID: 8559892892111630097}
   SourceBgm: {fileID: 8559892892111630098}
+  Bgms:
+  - {fileID: 8300000, guid: bd7f3348773575c43848c3d995d1f65e, type: 3}
+  - {fileID: 8300000, guid: 7d312e34187cbcb4c9b920c668bc80d7, type: 3}
+  - {fileID: 8300000, guid: 3525d878dc08eed4d893ca0242834f42, type: 3}
 --- !u!82 &8559892892111630097
 AudioSource:
   m_ObjectHideFlags: 0

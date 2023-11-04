@@ -10,7 +10,6 @@ public class Quiz : MonoBehaviour
     [SerializeField] TextMeshProUGUI QuestionText;
     [SerializeField] List<QuestionSO> Questions = new List<QuestionSO>();
     [SerializeField] QuestionSO CurrentQuestion;
-    int[] SetOfQuestions = new int[10];
 
     [Header("Answers")]
     [SerializeField] GameObject[] AnswerButtons;
@@ -35,6 +34,8 @@ public class Quiz : MonoBehaviour
     [SerializeField] Slider ProgressBar;
 
     public bool IsComplete;
+    int MaxQuestions = 10;
+    int QuestionCounter = 0;
 
     [Header("Fast Forward Button")]
     [SerializeField] Button FastForwardButton;
@@ -43,7 +44,7 @@ public class Quiz : MonoBehaviour
     {
         Timer = FindObjectOfType<Timer>();
         ScoreKeeper = FindObjectOfType<ScoreKeeper>();
-        ProgressBar.maxValue = Questions.Count;
+        ProgressBar.maxValue = MaxQuestions;
         ProgressBar.value = 0;
     }
 
@@ -120,13 +121,14 @@ public class Quiz : MonoBehaviour
 
     void GetNextQuestion()
     {
-        if(Questions.Count > 0)
+        if(MaxQuestions > 0)
         {
             SetButtonsInteractable(true);
             SetDefaultButtonSprites();
             GetRandomQuestion();
             DisplayQuestion();
             ProgressBar.value++;
+            QuestionCounter++;
             ScoreKeeper.IncrementQuestionsSeen();
             FastForwardButton.gameObject.SetActive(false);
         }

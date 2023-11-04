@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: 'Sina lolo at lola ay kauuwi lang galing Amerika. Tiyak na namimiss ka
     na nila kaya''t kung maaari ay bisitahin mo sila. '
-  TextPurpose: Enter purpose text here
+  TextPurpose: Ayon sa teksto, hinihikayat ka na bumisita sa iyong lolo at lola dahil
+    sa pagkamiss nila sa iyo pagkatapos nila umuwi galing Amerika.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat
