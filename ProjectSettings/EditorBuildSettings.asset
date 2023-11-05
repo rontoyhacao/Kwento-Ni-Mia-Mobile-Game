@@ -15,6 +15,63 @@ EditorBuildSettings:
     path: Assets/_Scenes/Game1_0.unity
     guid: c8c191a177b8f184e81466d9ce728ff1
   - enabled: 1
+    path: Assets/_Scenes/Game1_1.unity
+    guid: a2a37b8f5bfa71545b4716d852baff97
+  - enabled: 1
+    path: Assets/_Scenes/Game1_2.unity
+    guid: 8f9b2b7dba2d52b45b4996bc3064ca11
+  - enabled: 1
+    path: Assets/_Scenes/Game1_3.unity
+    guid: caae8f51edeccca41b818ddfab616589
+  - enabled: 1
+    path: Assets/_Scenes/Game1_4.unity
+    guid: 3603e23d391a8f244b92cec0dbc06788
+  - enabled: 1
+    path: Assets/_Scenes/Game1_5.unity
+    guid: 042296c65d86817478473e3279b34873
+  - enabled: 1
+    path: Assets/_Scenes/Game1_6.unity
+    guid: fcb653fd160f4f34481fe9f4acbee810
+  - enabled: 1
+    path: Assets/_Scenes/Game1_7.unity
+    guid: 1ac1ff63389696640bd12f44d0932950
+  - enabled: 1
+    path: Assets/_Scenes/Game1_8.unity
+    guid: 884c57f83b0d9cb49b510fe561ece60d
+  - enabled: 1
+    path: Assets/_Scenes/Game1_9.unity
+    guid: a6adf74edff64d1458b81bb5bfa926a4
+  - enabled: 1
+    path: Assets/_Scenes/Game1_10.unity
+    guid: 136217e67b2bca24b9e9e86d8d11fc2f
+  - enabled: 1
+    path: Assets/_Scenes/Game1_11.unity
+    guid: 3b2cc0636b73138409b7a9b6a90ce11b
+  - enabled: 1
+    path: Assets/_Scenes/Game1_12.unity
+    guid: 5dd9d67054c723447846fc036ad7de31
+  - enabled: 1
+    path: Assets/_Scenes/Game1_13.unity
+    guid: 110b2ddbc603ce144a8bb8468fa4fd2d
+  - enabled: 1
+    path: Assets/_Scenes/Game1_14.unity
+    guid: b6a74c038c05cbb49af771d3dfd66428
+  - enabled: 1
+    path: Assets/_Scenes/Game1_15.unity
+    guid: ed9b276a3cd159f478aab8e76dcda85e
+  - enabled: 1
+    path: Assets/_Scenes/Game1_16.unity
+    guid: 621ec04d0019b6a47a9d6f5c3ca7dd14
+  - enabled: 1
+    path: Assets/_Scenes/Game1_17.unity
+    guid: c591959a0746d6f43955cc1431c9cce4
+  - enabled: 1
+    path: Assets/_Scenes/Game1_18.unity
+    guid: 66c1b0f3235a3124288e46d75b1e35a0
+  - enabled: 1
+    path: Assets/_Scenes/Game1_19.unity
+    guid: 46eb0f21e7bc74b4c9d0b75a54fe44f1
+  - enabled: 1
     path: Assets/_Scenes/Game2_0.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1

@@ -20,7 +20,7 @@ public class UiControl : MonoBehaviour
 
     public void BtnSound(int id)
     {
-        SoundCollection.instance.CallSfx(0);
+        SoundCollection.instance.CallSfx(id);
     }
     public void BtnMove(string name)
     {

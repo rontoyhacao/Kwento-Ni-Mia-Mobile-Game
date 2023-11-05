@@ -56,12 +56,34 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c2c45be650fd94c4e947f120e933867e, type: 3}
   - {fileID: 8300000, guid: 7c682755db4775c418d4b37c23b5eca5, type: 3}
   - {fileID: 8300000, guid: a9c6da46c54f8ca4abce027559d36595, type: 3}
+  - {fileID: 8300000, guid: 5b681fb6caf071c48a6e753eb4afd7ae, type: 3}
   SourceSfx: {fileID: 8559892892111630097}
   SourceBgm: {fileID: 8559892892111630098}
   Bgms:
   - {fileID: 8300000, guid: bd7f3348773575c43848c3d995d1f65e, type: 3}
   - {fileID: 8300000, guid: 7d312e34187cbcb4c9b920c668bc80d7, type: 3}
   - {fileID: 8300000, guid: 3525d878dc08eed4d893ca0242834f42, type: 3}
+  VoiceOver:
+  - {fileID: 8300000, guid: cf251d310b628494a90a291b384a82e4, type: 3}
+  - {fileID: 8300000, guid: e69b20357f674984888b2b2bbb7a4989, type: 3}
+  - {fileID: 8300000, guid: 2660a85e09cc61143922bb1b4add7120, type: 3}
+  - {fileID: 8300000, guid: c7a20ad47b60a374aa63e531e4a15ffe, type: 3}
+  - {fileID: 8300000, guid: 3ab151534a8187a4b937639315480d6e, type: 3}
+  - {fileID: 8300000, guid: af3a56ab59e2d584a9fa384825cd2716, type: 3}
+  - {fileID: 8300000, guid: 4e5b16d1597c67e4f93fbcf597ec9e8a, type: 3}
+  - {fileID: 8300000, guid: 47060e3f26d4fb24ea4cc005df76bf1c, type: 3}
+  - {fileID: 8300000, guid: 292e7e20b5ef5e1479f0d20a809a6f5d, type: 3}
+  - {fileID: 8300000, guid: 7e9b141f7dcfc504fa876c3cfbbafec5, type: 3}
+  - {fileID: 8300000, guid: 24901778c7b8c7b43b0bd67993bee2a9, type: 3}
+  - {fileID: 8300000, guid: 1f49026c140cfd34e90a5515bca51bf6, type: 3}
+  - {fileID: 8300000, guid: 9a0374c6f3b7e634380818958b74048e, type: 3}
+  - {fileID: 8300000, guid: 05a55cd781fd2214580c849542926bed, type: 3}
+  - {fileID: 8300000, guid: c338d5122fcccb64db675789c7ee561e, type: 3}
+  - {fileID: 8300000, guid: bfd391b3ba5fe06419f2521d80741268, type: 3}
+  - {fileID: 8300000, guid: db8c3d58f4262224fa9e68dfc288abbe, type: 3}
+  - {fileID: 8300000, guid: d62aaa628f1e4a2438fec35160a44d53, type: 3}
+  - {fileID: 8300000, guid: eef7fcf2aa87ffc43869a88551ad83fb, type: 3}
+  - {fileID: 8300000, guid: 015bfa6573687bf4a97de9271a84098d, type: 3}
 --- !u!82 &8559892892111630097
 AudioSource:
   m_ObjectHideFlags: 0
@@ -170,7 +192,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bd7f3348773575c43848c3d995d1f65e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
