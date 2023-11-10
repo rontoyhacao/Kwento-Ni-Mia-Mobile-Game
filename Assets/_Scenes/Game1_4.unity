@@ -3939,6 +3939,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameStart: 0
   GameOver: 0
+  TimerText: {fileID: 0}
+  ScoreText: {fileID: 0}
   GuiPause: {fileID: 8128321063015837147}
   GuiAnimation: {fileID: 1042534974}
 --- !u!1 &620610642
@@ -9408,7 +9410,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainMenu
+          m_StringArgument: Game1_Quiz
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 4511598572560943006, guid: fe277904413767247a1d2d8f2ddc93c5, type: 3}

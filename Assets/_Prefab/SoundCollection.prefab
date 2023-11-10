@@ -57,12 +57,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7c682755db4775c418d4b37c23b5eca5, type: 3}
   - {fileID: 8300000, guid: a9c6da46c54f8ca4abce027559d36595, type: 3}
   - {fileID: 8300000, guid: 5b681fb6caf071c48a6e753eb4afd7ae, type: 3}
+  - {fileID: 8300000, guid: 6ee400e3e171efe459b80a345b1af750, type: 3}
   SourceSfx: {fileID: 8559892892111630097}
   SourceBgm: {fileID: 8559892892111630098}
   Bgms:
   - {fileID: 8300000, guid: bd7f3348773575c43848c3d995d1f65e, type: 3}
   - {fileID: 8300000, guid: 7d312e34187cbcb4c9b920c668bc80d7, type: 3}
   - {fileID: 8300000, guid: 3525d878dc08eed4d893ca0242834f42, type: 3}
+  - {fileID: 8300000, guid: 38a3a66533723544eb689c2acd14d8c9, type: 3}
   VoiceOver:
   - {fileID: 8300000, guid: cf251d310b628494a90a291b384a82e4, type: 3}
   - {fileID: 8300000, guid: e69b20357f674984888b2b2bbb7a4989, type: 3}

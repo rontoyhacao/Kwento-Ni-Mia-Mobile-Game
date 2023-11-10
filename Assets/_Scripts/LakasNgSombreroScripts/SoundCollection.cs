@@ -73,6 +73,11 @@ public class SoundCollection : MonoBehaviour
 
     public void CheckStoryScenesAndPlayVoiceOver(Scene scene)
     {
+        if (scene.name == "Game1_0TitlePage")
+        {
+            SoundCollection.instance.StopBgm();
+        }
+
         if (scene.name == "Game1_0")
         {
             SoundCollection.instance.StopBgm();
@@ -191,6 +196,12 @@ public class SoundCollection : MonoBehaviour
         {
             SoundCollection.instance.StopBgm();
             SoundCollection.instance.PlayVoiceOver(19);
+        }
+
+        if (scene.name == "Game1_Quiz")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.ChangeAndPlayBgm(3);
         }
     }
 }
