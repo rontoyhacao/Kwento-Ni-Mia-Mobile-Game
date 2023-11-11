@@ -44,7 +44,7 @@ public class SoundCollection : MonoBehaviour
             SoundCollection.instance.ChangeAndPlayBgm(2);
         }
 
-        CheckStoryScenesAndPlayVoiceOver(scene);
+        CheckScenesAndPlayVoiceOver(scene);
     }
 
     public void CallSfx(int id)
@@ -71,7 +71,7 @@ public class SoundCollection : MonoBehaviour
         SourceBgm.loop = false;
     }
 
-    public void CheckStoryScenesAndPlayVoiceOver(Scene scene)
+    public void CheckScenesAndPlayVoiceOver(Scene scene)
     {
         if (scene.name == "Game1_0TitlePage")
         {
@@ -202,6 +202,48 @@ public class SoundCollection : MonoBehaviour
         {
             SoundCollection.instance.StopBgm();
             SoundCollection.instance.ChangeAndPlayBgm(3);
+        }
+
+        if (scene.name == "Game2_Tutorial")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(20);
+        }
+
+        if (scene.name == "Game2_Tutorial1")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(21);
+        }
+
+        if (scene.name == "Game2_Tutorial2")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(22);
+        }
+
+        if (scene.name == "Game2_Tutorial3")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(23);
+        }
+
+        if (scene.name == "Game2_Tutorial4")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(24);
+        }
+
+        if (scene.name == "Game2_Tutorial5")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(25);
+        }
+
+        if (scene.name == "Game2_Tutorial6")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(26);
         }
     }
 }

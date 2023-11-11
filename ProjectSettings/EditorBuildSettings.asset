@@ -81,6 +81,27 @@ EditorBuildSettings:
     path: Assets/_Scenes/Game1_QuizOver.unity
     guid: 17c0b92437985994fb5214542c0996f7
   - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial.unity
+    guid: 00f9aa306628f51459049a6449762812
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial1.unity
+    guid: dc103185787cd2f4bab3eed1add759cd
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial2.unity
+    guid: d4437ee8da2898d448fd86b0ee6466c2
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial3.unity
+    guid: d7df69289ca2ee445847c4066e1831fb
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial4.unity
+    guid: c2d115c9fb2e656459304c8a0bf2e980
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial5.unity
+    guid: 972ee5e7d7f8983479e8bc0d04441bda
+  - enabled: 1
+    path: Assets/_Scenes/Game2_Tutorial6.unity
+    guid: 7d196a7768229014685c8eb777fc0c66
+  - enabled: 1
     path: Assets/_Scenes/Game2_0.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
