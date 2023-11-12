@@ -245,5 +245,59 @@ public class SoundCollection : MonoBehaviour
             SoundCollection.instance.StopBgm();
             SoundCollection.instance.PlayVoiceOver(26);
         }
+
+        if (scene.name == "Game3_Tutorial")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(27);
+        }
+
+        if (scene.name == "Game3_Tutorial1")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(28);
+        }
+
+        if (scene.name == "Game3_Tutorial2")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(29);
+        }
+
+        if (scene.name == "Game3_Tutorial3")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(30);
+        }
+
+        if (scene.name == "Game3_Tutorial4")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(31);
+        }
+
+        if (scene.name == "Game3_Tutorial5")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(32);
+        }
+
+        if (scene.name == "Game3_Tutorial6")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(33);
+        }
+
+        if (scene.name == "Game3_Tutorial7")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(34);
+        }
+
+        if (scene.name == "Game3_Tutorial8")
+        {
+            SoundCollection.instance.StopBgm();
+            SoundCollection.instance.PlayVoiceOver(35);
+        }
     }
 }

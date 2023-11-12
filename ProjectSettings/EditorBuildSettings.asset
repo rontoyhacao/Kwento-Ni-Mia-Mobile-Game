@@ -126,6 +126,33 @@ EditorBuildSettings:
     path: Assets/_Scenes/Game2_Over.unity
     guid: bd3c728ea26c3d648844db37ea48dd48
   - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial.unity
+    guid: 619cf542df7133d458a321fdb7abded4
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial1.unity
+    guid: e3734e6ac3d5fad46ae307355e25d7a7
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial2.unity
+    guid: de4656038b471e1448f025f8c5a9edac
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial3.unity
+    guid: 95167ce40b14fd943a212b9c069af4dd
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial4.unity
+    guid: 2490b936053cb7b4cbb8f9509df22e73
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial5.unity
+    guid: cab1b98a52bc6db44851d5d20b3fc2ed
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial6.unity
+    guid: fbc6120f9b990ee478ef6e3ab5162d5e
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial7.unity
+    guid: 8dad2186b58c77c43aaf782c33cf6e42
+  - enabled: 1
+    path: Assets/_Scenes/Game3_Tutorial8.unity
+    guid: e14d39b6fa1fddc44a2f60374e335d14
+  - enabled: 1
     path: Assets/_Scenes/Game3_0.unity
     guid: bfda49125e449eb4fae71dcdab5ac3cf
   - enabled: 1
