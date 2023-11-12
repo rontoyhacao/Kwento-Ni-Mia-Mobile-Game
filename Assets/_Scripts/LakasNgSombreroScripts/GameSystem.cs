@@ -93,7 +93,7 @@ public class GameSystem : MonoBehaviour
         _RandomQuestion = new List<int>(new int[DragObj.Length]);
         _RandomQuestionSpeechType = new List<string>(new string[DragObj.Length]);
 
-        if (_RandomQuestion.Count <= 3)
+        if (_RandomQuestion.Count <= 4)
         {
             for (int i = 0; i < _RandomQuestion.Count; i++)
             {

@@ -397,28 +397,28 @@ MonoBehaviour:
   GuiPause: {fileID: 8128321063015837147}
   GuiAnimation: {fileID: 698024137}
   GameData:
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang mga ina ay tunay na ilaw ng tahanan.
   - FigureSpeechType: Pagmamalabis
-    Phrase: Kumukulo ang dugo ko sa kanya!
+    Phrase: Pagbalik ko ay bumabaha na ng basura sa kapitbahay.
   - FigureSpeechType: Pagtatao
-    Phrase: Lumuluha ang kandila sa mesa.
+    Phrase: Nahiya ang buwan at nagkanlong sa ulap kagabi.
   - FigureSpeechType: Pagtatao
-    Phrase: Hinalikan ako ng malamig na hangin.
+    Phrase: Lumuha ang langit nang mawala ang hari.
   - FigureSpeechType: Pagmamalabis
-    Phrase: Pakiramdam ko ay pasan ko ang langit.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang bagong silang na anak ni Mary Grace ay anghel na hulog ng langit.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Isang kabayo sa bilis ang kapatid ko.
+    Phrase: Abot-langit ang pagmamahal niya sa aking kapatid.
   - FigureSpeechType: Pagmamalabis
-    Phrase: Kitang-kita kung paano umusok ang ilong ng kanyang ina sa galit.
+    Phrase: Bumaha ng dolyar sa pag-uwi ni Andres mula sa Amerika.
   - FigureSpeechType: Pagtatao
-    Phrase: Ang makulay mong damit ay naghahanap ng atensyon.
+    Phrase: Nahiya ang mga bulaklak sa pagdaan ni Mariang Maganda.
   - FigureSpeechType: Pagtatao
-    Phrase: Galit na bumuhos ang ulan kahapon.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang mata niya ay mga alitaptap.
+    Phrase: Humagulgol ang hangin.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ikaw ay tulad ng bituin.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang paghahabi ng tela ay tulad ng paghihirap ng isang tao.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang puso mo ay tila bato.
+  - FigureSpeechType: 
+    Phrase: 
   LocationDrop:
   - {fileID: 116689487}
   - {fileID: 153271389}

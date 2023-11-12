@@ -481,8 +481,6 @@ MonoBehaviour:
   GuiPause: {fileID: 8128321063015837147}
   GuiAnimation: {fileID: 698024137}
   GameData:
-  - FigureSpeechType: Pagwawangis
-    Phrase: Si Leni ay isang anghel sa kabaitan.
   - FigureSpeechType: Pagmamalabis
     Phrase: Kumukulo ang dugo ko sa kanya!
   - FigureSpeechType: Pagtatao
@@ -491,18 +489,20 @@ MonoBehaviour:
     Phrase: Hinalikan ako ng malamig na hangin.
   - FigureSpeechType: Pagmamalabis
     Phrase: Pakiramdam ko ay pasan ko ang langit.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang bagong silang na anak ni Mary Grace ay anghel na hulog ng langit.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Isang kabayo sa bilis ang kapatid ko.
   - FigureSpeechType: Pagmamalabis
     Phrase: Kitang-kita kung paano umusok ang ilong ng kanyang ina sa galit.
   - FigureSpeechType: Pagtatao
     Phrase: Ang makulay mong damit ay naghahanap ng atensyon.
   - FigureSpeechType: Pagtatao
     Phrase: Galit na bumuhos ang ulan kahapon.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang mata niya ay mga alitaptap.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Si Mang Mario ay kawangis ng aming ama ng tahanan.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Paris ng malamig na kape ang pakikitungo niya sa akin.
+  - FigureSpeechType: Pagtutulad
+    Phrase: 'Tila may daga sa dibdib si Alison habang umaawit sa entablado. '
+  - FigureSpeechType: 
+    Phrase: 
   LocationDrop:
   - {fileID: 116689487}
   - {fileID: 153271389}

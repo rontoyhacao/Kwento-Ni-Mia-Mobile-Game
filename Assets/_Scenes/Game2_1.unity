@@ -367,26 +367,16 @@ MonoBehaviour:
   GuiPause: {fileID: 8128321063015837147}
   GuiAnimation: {fileID: 698024137}
   GameData:
-  - FigureSpeechType: Pagwawangis
-    Phrase: Si Marga ay isang magandang bulaklak.
   - FigureSpeechType: Pagtutulad
-    Phrase: Parang tambol sa lakas ang boses ni Juan sa entablado.
+    Phrase: Magkasing-amo tulad ng kordero itong si Victor at Romeo.
   - FigureSpeechType: Pagtatao
-    Phrase: Sumasayaw ang mga halaman sa bawat ihip ng hangin.
+    Phrase: Niyakap ako ng malamig na hangin.
   - FigureSpeechType: Pagtutulad
-    Phrase: Ang aking lolo ay parang leon sa katapangan.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Ang kamay ng dalaga ay yelo sa lamig dahil siya ay kinakabahan.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Si Dina ay hulog ng langit.
-  - FigureSpeechType: Pagtutulad
-    Phrase: Si Rosa ay tulad ng nangangatal na dahon sa takot.
+    Phrase: 'Tila kalapating mababa ang lipad kung manamit itong si Elsa. '
   - FigureSpeechType: Pagtatao
-    Phrase: Umiyak ang langit nang mamatay ang isang bayani.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Isang malaking palasyo ang bahay ni Victor.
-  - FigureSpeechType: Pagwawangis
-    Phrase: Si Melanie ay isang bituing nagniningning.
+    Phrase: 'Ang mga bulaklak ay sumasayaw sa pag-ihip ng hangin. '
+  - FigureSpeechType: Pagtatao
+    Phrase: Ang buwan ay nagtago sa likod ng makapal na ulap.
   - FigureSpeechType: 
     Phrase: 
   LocationDrop:
