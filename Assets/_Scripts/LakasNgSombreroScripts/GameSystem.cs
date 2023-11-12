@@ -71,7 +71,7 @@ public class GameSystem : MonoBehaviour
     {
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Game2_0")
         {
-            Data.TimerData = 60 * 3;
+            Data.TimerData = 90;
             Data.LevelData = 0;
             Data.ScoreData = 0;
             Data.LivesData = 5;

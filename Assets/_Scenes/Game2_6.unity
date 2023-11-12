@@ -570,7 +570,7 @@ MonoBehaviour:
   - FigureSpeechType: Pagtutulad
     Phrase: Ikaw ay tulad ng bituin.
   - FigureSpeechType: Pagtutulad
-    Phrase: Ang paghahabi ng tela ay tulad ng paghihirap ng isang tao.
+    Phrase: Tila yelo sa lamig ang kamay ng kinakabahang mang-aawit.
   - FigureSpeechType: Pagtutulad
     Phrase: Ang puso mo ay tila bato.
   - FigureSpeechType: Walang tayutay
@@ -579,6 +579,8 @@ MonoBehaviour:
     Phrase: Bigyan natin sila ng malakas na palakpakan
   - FigureSpeechType: Walang tayutay
     Phrase: Dahan-dahang naglakad si Jeff at ang kanyang alagang aso.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang mga mata mo'y sing-ningning ng mga bituin sa langit.
   - FigureSpeechType: 
     Phrase: 
   LocationDrop:

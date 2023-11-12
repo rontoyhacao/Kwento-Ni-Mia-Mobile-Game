@@ -377,6 +377,8 @@ MonoBehaviour:
     Phrase: 'Ang mga bulaklak ay sumasayaw sa pag-ihip ng hangin. '
   - FigureSpeechType: Pagtatao
     Phrase: Ang buwan ay nagtago sa likod ng makapal na ulap.
+  - FigureSpeechType: Pagtutulad
+    Phrase: Ang kanyang anyo ay kawangis ng isang anghel.
   - FigureSpeechType: 
     Phrase: 
   LocationDrop:

@@ -66,6 +66,7 @@ public class ObjDrag : MonoBehaviour
             {
                 transform.position = SavePosition;
                 Data.LivesData--;
+                Data.TimerData-=5;
                 SoundCollection.instance.CallSfx(2);
             }
         }

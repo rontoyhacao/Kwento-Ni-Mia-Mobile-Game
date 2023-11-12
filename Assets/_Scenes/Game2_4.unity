@@ -398,15 +398,15 @@ MonoBehaviour:
   GuiAnimation: {fileID: 698024137}
   GameData:
   - FigureSpeechType: Pagmamalabis
-    Phrase: Kumukulo ang dugo ko sa kanya!
+    Phrase: Ang pagmamahal ko sa iyo ay singlayo ng buwan.
   - FigureSpeechType: Pagtatao
     Phrase: Lumuluha ang kandila sa mesa.
   - FigureSpeechType: Pagtatao
     Phrase: Hinalikan ako ng malamig na hangin.
   - FigureSpeechType: Pagmamalabis
-    Phrase: Pakiramdam ko ay pasan ko ang langit.
+    Phrase: Bumaha ang pagkain noong pyesta sa amin.
   - FigureSpeechType: Pagmamalabis
-    Phrase: Kitang-kita kung paano umusok ang ilong ng kanyang ina sa galit.
+    Phrase: Namuti na ang mga mata ni Johny kahihintay kay Myla.
   - FigureSpeechType: Pagtatao
     Phrase: Ang makulay mong damit ay naghahanap ng atensyon.
   - FigureSpeechType: Pagtatao
