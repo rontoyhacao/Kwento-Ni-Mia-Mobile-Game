@@ -59,12 +59,14 @@ public class GameSystem : MonoBehaviour
         GameOver = false;
         ResetData();
         Target = LocationDrop.Length;
-        if(RandomSystem)
+        if (RandomSystem)
         {
             RandomizeQuestion();
         }
         CurrentDataSet = 0;
-        GameStart = true;
+
+        // ignore "HowToPlayPopup" game object in other scenes
+        if (GameObject.Find("HowToPlayPopup") == null) GameStart = true;
     }
 
     void ResetData()
@@ -76,6 +78,11 @@ public class GameSystem : MonoBehaviour
             Data.ScoreData = 0;
             Data.LivesData = 5;
         }
+    }
+
+    public void StartAfterTutorial()
+    {
+        GameStart = true;
     }
 
     [HideInInspector]public List<int> _RandomQuestion = new List<int>();
