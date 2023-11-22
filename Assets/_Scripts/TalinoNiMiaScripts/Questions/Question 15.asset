@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
   m_Name: Question 15
   m_EditorClassIdentifier: 
-  Question: Ang mga unang tao ay pinaniniwalaang dumating sa Hilagang Amerika sa
-    pamamagitan ng isang lupaing tulay na dating nag-uugnay sa Asya at Alaska. Sinundan
-    nila ang mga kawan ng hayop sa buong kontinente ng Hilagang Amerika.
-  TextPurpose: Ayon sa teksto, ito ay nagbibigay impormasyon na ang mga unang tao
-    raw ay dumating sa Hilagang Amerika sa pamamagitan ng isang lupaing tulay.
+  Question: Ang mga octopus ay may tatlong puso.
+  TextPurpose: Ayon sa teksto, nagbibigay impormasyon ito na ang mga octopus ay may
+    tatlong puso.
   Answers:
   - Magbigay Impormasyon
   - Manghikayat

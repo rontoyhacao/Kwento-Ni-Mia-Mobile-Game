@@ -96,7 +96,7 @@ public class Quiz : MonoBehaviour
 
         if (index == CurrentQuestion.GetCorrectAnswerIndex())
         {
-            QuestionText.text = $"Tama! Ang layunin ng may akda sa teksto ay {correctAnswer}. {textPurpose}";
+            QuestionText.text = $"Tama! Ang layunin ng may akda sa teksto ay {correctAnswer.ToLower()}. {textPurpose}";
             buttonImage = AnswerButtons[index].GetComponent<Image>();
             buttonImage.sprite = CorrectAnswerSprite;
             ScoreKeeper.IncrementCorrectAnswers();
@@ -104,13 +104,13 @@ public class Quiz : MonoBehaviour
         }
         else if(index == -1)
         {
-            QuestionText.text = $"Subukan mo muli! Ang tamang layunin ng may akda sa teksto ay {correctAnswer}. {textPurpose}";
+            QuestionText.text = $"Subukan mo muli! Ang tamang layunin ng may akda sa teksto ay {correctAnswer.ToLower()}. {textPurpose}";
             buttonImage = AnswerButtons[CorrectAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = CorrectAnswerSprite;
         }
         else
         {
-            QuestionText.text = $"Subukan mo muli! Ang tamang layunin ng may akda sa teksto ay {correctAnswer}. {textPurpose}";
+            QuestionText.text = $"Subukan mo muli! Ang tamang layunin ng may akda sa teksto ay {correctAnswer.ToLower()}. {textPurpose}";
             wrongButtonImage = AnswerButtons[index].GetComponent<Image>();
             wrongButtonImage.sprite = WrongAnswerSprite;
             buttonImage = AnswerButtons[CorrectAnswerIndex].GetComponent<Image>();

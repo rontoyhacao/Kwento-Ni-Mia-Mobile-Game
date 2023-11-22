@@ -4761,6 +4761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game1PlayButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8024986423137168524, guid: 8dc3004c5b271ed43a8c8ac6cd897a93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8024986423137168525, guid: 8dc3004c5b271ed43a8c8ac6cd897a93, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
