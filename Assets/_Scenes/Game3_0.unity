@@ -2251,7 +2251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7690200898357a049a15132b4d5f2d3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aaa290307e2f25247881af6af3d63091, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2779,6 +2779,10 @@ PrefabInstance:
     - target: {fileID: 4212087046245935203, guid: f10176dbb0785714992bd4d52db43213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameSystem1, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212087046602977437, guid: f10176dbb0785714992bd4d52db43213, type: 3}
+      propertyPath: m_text
+      value: Game Options
       objectReference: {fileID: 0}
     - target: {fileID: 4212087046821164883, guid: f10176dbb0785714992bd4d52db43213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
