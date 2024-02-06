@@ -2505,7 +2505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Resume
+  m_text: Ituloy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
   m_sharedMaterial: {fileID: -1580198639394048852, guid: a2d5e800429d11449a13f826f5e18178, type: 2}

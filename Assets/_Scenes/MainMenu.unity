@@ -2327,8 +2327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 0.000015258789}
-  m_SizeDelta: {x: 566.9369, y: 125.8473}
+  m_AnchoredPosition: {x: 19, y: -0.002697}
+  m_SizeDelta: {x: 625.67, y: 125.8473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879773674
 MonoBehaviour:
@@ -2350,7 +2350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Legend of Sampaloc Lake the Game
+  m_text: 'Ang Alamat ng Lawa ng Sampalok: Ang Laro'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
   m_sharedMaterial: {fileID: -1580198639394048852, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
@@ -3895,7 +3895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.191}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: -48}
+  m_AnchoredPosition: {x: 372, y: -39}
   m_SizeDelta: {x: 315.54, y: 246.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562250700
@@ -4396,8 +4396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.9999995, y: 0.000015258789}
-  m_SizeDelta: {x: 566.9369, y: 125.8473}
+  m_AnchoredPosition: {x: 28, y: -0.0013409}
+  m_SizeDelta: {x: 625.67, y: 125.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663009223
 MonoBehaviour:
@@ -4419,7 +4419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Legend of Sampaloc Lake the Game
+  m_text: 'Ang Alamat ng Lawa ng Sampalok: Ang Laro'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
   m_sharedMaterial: {fileID: -1580198639394048852, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
@@ -5140,9 +5140,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Legend of Sampaloc Lake the Game was built to engage reading comprehension
+  m_text: 'Ang Alamat ng Lawa ng Sampalok: Ang Laro was built to engage reading comprehension
     of young Filipino children in the Tagalog language by identifying story elements,
-    figures of speech, and author's purposes.
+    figures of speech, and author''s purposes.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
   m_sharedMaterial: {fileID: -1580198639394048852, guid: a2d5e800429d11449a13f826f5e18178, type: 2}
@@ -5331,7 +5331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.68750024}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.15387, y: 201.01305}
+  m_AnchoredPosition: {x: 0.0000038147, y: 210}
   m_SizeDelta: {x: 784.4443, y: 210.56094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &2021501716

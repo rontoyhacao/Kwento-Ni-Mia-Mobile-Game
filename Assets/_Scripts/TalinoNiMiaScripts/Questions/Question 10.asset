@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7851bf489dd1d4a9909609350a6b3c, type: 3}
   m_Name: Question 10
   m_EditorClassIdentifier: 
-  Question: Si Leni ay isang magaling na presidente. Siya ay mapagkakatiwalaan at
-    bawat tungkulin ay kanyang naihahatid. Marami rin siyang mga kaibigan at nakapagtaguyod
-    ng fundraising para sa klase. Siya ang dapat iboto ng nakararami.
+  Question: Si Leni ay isang magaling na class officer sa kanilang klase. Siya ay
+    mapagkakatiwalaan at bawat tungkulin ay kanyang naihahatid. Marami rin siyang
+    mga kaibigan at nakapagtaguyod ng fundraising para sa klase. Siya ang dapat iboto
+    ng nakararami.
   TextPurpose: Dahil ayon sa teksto, siya ay isang mabuting ihemplo para sa isang
     presidente kung kaya't siya ang hinihikayat na iboto ng nakararami.
   Answers:
